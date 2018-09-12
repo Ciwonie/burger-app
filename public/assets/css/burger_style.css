@@ -1,0 +1,86 @@
+body{
+    background-color: rgba(0,0,0,0.5);
+    font-family: 'Baloo Tammudu', cursive;
+    color: #141414;
+}
+
+.jumbotron {
+    background-image: url(../img/pug.jpg);
+    background-color: rgba(0,0,0,0.8);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    mix-blend-mode: difference;
+    opacity: .9;
+    margin-bottom: 20px;
+    background-position: center center;
+    border-bottom: 20px black solid;
+}
+
+.jumbotron h1 {
+  font-size: 36px;
+}
+
+/* .full-image {
+    background: url(../img/latest-cover.jpg)
+} */
+
+li {
+  list-style-type: none;
+}
+
+.burgerType {
+  font-size: 18px;
+}
+
+.btnDevour {
+    background: #FF851B;
+    color: black;
+    padding: 5px;
+    border: 1px solid #FF851B;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#btnCreate {
+  display: block;
+  margin: 0 auto;
+  background: #FF851B;
+  color: black;
+  padding: 5px;
+  border: 1px solid #FF851B;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#btnDelete {
+  display: block;
+  margin: 0 auto;
+}
+
+ul,li {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+/* .rightBurgers {
+  float: right;
+} */
+
+@media only screen and (max-width: 1000px) {
+    .leftburgers {
+        display: block;
+        margin: auto;
+    }
+    .input {
+        display: block;
+        margin: auto;
+    }
+    .rightburgers {
+        display: block;
+        margin: auto;
+    }
+}
