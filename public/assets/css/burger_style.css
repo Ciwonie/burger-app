@@ -1,7 +1,7 @@
 body{
-    background-color: rgba(0,0,0,0.5);
+    background-color: #030027;
     font-family: 'Baloo Tammudu', cursive;
-    color: #141414;
+    color: #F2F3D9;
 }
 
 .jumbotron {
@@ -9,12 +9,12 @@ body{
     background-color: rgba(0,0,0,0.8);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    color: white;
+    color: #F2F3D9;
     mix-blend-mode: difference;
     opacity: .9;
     margin-bottom: 20px;
     background-position: center center;
-    border-bottom: 20px black solid;
+    border-bottom: 20px #151E3F solid;
 }
 
 .jumbotron h1 {
@@ -34,10 +34,10 @@ li {
 }
 
 .btnDevour {
-    background: #FF851B;
-    color: black;
+    background: #C16E70;
+    color: #DC9E82;
     padding: 5px;
-    border: 1px solid #FF851B;
+    border: 1px solid #C16E70;
     border-radius: 5px;
     margin-bottom: 10px;
     display: inline-block;
@@ -46,10 +46,10 @@ li {
 #btnCreate {
   display: block;
   margin: 0 auto;
-  background: #FF851B;
-  color: black;
+  background: #C16E70;
+  color: #DC9E82;
   padding: 5px;
-  border: 1px solid #FF851B;
+  border: 1px solid #C16E70;
   border-radius: 5px;
   margin-bottom: 10px;
 }
